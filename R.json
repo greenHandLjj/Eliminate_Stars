@@ -1,0 +1,33 @@
+{
+	"images":[
+		{ "name":"i0" , "url":"./images/i0.png" },
+		{ "name":"i1" , "url":"./images/i1.png" },
+		{ "name":"i2" , "url":"./images/i2.png" },
+		{ "name":"i3" , "url":"./images/i3.png" },
+		{ "name":"i4" , "url":"./images/i4.png" },
+		{ "name":"i5" , "url":"./images/i5.png" },
+		{ "name":"i6" , "url":"./images/i6.png" },
+		{ "name":"i7" , "url":"./images/i7.png" },
+		{ "name":"i8" , "url":"./images/i8.png" },
+		{ "name":"i9" , "url":"./images/i9.png" },
+		{ "name":"i10" , "url":"./images/i10.png" },
+		{ "name":"i11" , "url":"./images/i11.png" },
+		{ "name":"i12" , "url":"./images/i12.png" },
+		{ "name":"i13" , "url":"./images/i13.png" },
+		{ "name":"i14" , "url":"./images/i14.png" },
+		{ "name":"bom0" , "url":"./images/bom0.png" },
+		{ "name":"bom1" , "url":"./images/bom1.png" },
+		{ "name":"bom2" , "url":"./images/bom2.png" },
+		{ "name":"bom3" , "url":"./images/bom3.png" },
+		{ "name":"bom4" , "url":"./images/bom4.png" },
+		{ "name":"bom5" , "url":"./images/bom5.png" },
+		{ "name":"bom6" , "url":"./images/bom6.png" },
+		{ "name":"bom7" , "url":"./images/bom7.png" },
+		{ "name":"bom8" , "url":"./images/bom8.png" },
+		{ "name":"bg1" , "url":"./images/bg1.png" }
+	],
+	"music":[
+		{ "name":"bgm","url":"./music/bgm.mp3" },
+		{ "name":"bom1","url":"./music/bom1.mp3" }
+	]
+}

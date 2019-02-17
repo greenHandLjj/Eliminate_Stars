@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			/* overflow: hidden; */
+		}
+		#code{
+			position: absolute;
+			left:30px;
+			top:60px;
+			color:#fff;
+			font-size:12px;
+		}
+		#nendDrop{
+			position: absolute;
+			left:200px;
+			top:60px;
+			color:#fff;
+			font-size:12px;
+		}
+		#nendDrop,#code,td{
+			border:1px solid #999;
+		}
+		#nendDrop,td{
+			padding:0 2px;
+		}
+		canvas{
+			display: block;
+		}
+		input{
+			font-size:20px;
+		}
+	</style>
+	<title>测试版本--消灭星星</title>
+</head>
+<body>
+	
+	<!-- <input type="button" value="消除" onclick="fn1()" >
+	<input type="button" value="下落" onclick="fn2()" >
+	<input type="button" value="补齐" onclick="fn3()" > -->
+	
+	<canvas id="canvas"></canvas>
+	<!-- <table id="code" >
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table> -->
+	
+	
+	<script src="./js/Game.js" ></script>
+	<script src="./js/Spirit.js" ></script>
+	<script src="./js/Map.js" ></script>
+	
+	<script>
+		var game = new Game({
+			'id':'canvas',
+			'url':'R.json'
+		})
+		
+		/* 测试代码 */
+		/* function fn1(){ //消除
+			game.map.removeSpirits(game.map.findConnectArr());
+		}
+		
+		function fn2(){	//下落
+			game.map.getNendDropArr();
+		}
+		
+		function fn3(){ //补齐
+			game.map.makeUp();
+		} */
+		
+	</script>
+	
+</body>
+</html>
